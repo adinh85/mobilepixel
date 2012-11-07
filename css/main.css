@@ -11,6 +11,7 @@ textarea {
 }
 
 body {
+    font-family:Arial,Helvetica;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -202,7 +203,36 @@ textarea {
         page-break-after: avoid;
     }
 }
-
+.clear {
+    clear:both;
+}
+.blue-button {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #19bed0), color-stop(1, #00acc7) );
+	background:-moz-linear-gradient( center top, #19bed0 5%, #00acc7 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#19bed0', endColorstr='#00acc7');
+	background-color:#19bed0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+}.blue-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00acc7), color-stop(1, #19bed0) );
+	background:-moz-linear-gradient( center top, #00acc7 5%, #19bed0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00acc7', endColorstr='#19bed0');
+	background-color:#00acc7;
+}.blue-button:active {
+	position:relative;
+	top:1px;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -223,5 +253,37 @@ header {
 }
 .topnav {
     float:right;
-    width:425px;
+    width:460px;
+}
+.socialbar {
+    float:right;
+    margin-top:38px;
+    margin-right:45px;
+}
+.topnav nav{
+    margin-top:76px;
+    font-size:13px;
+    color:#333;
+}
+.topnav nav a,.topnav nav a:visited,.topnav nav a:active{
+    padding-right:12px;
+    color:#444;
+    text-decoration:none;
+}
+.topnav nav a:hover{
+    color:#222;
+    text-decoration:underline;
+}
+.topnav .login-btn {
+    float:right;
+    margin-top:-20px;
+}
+.slider-wrapper {
+    margin-top:8px;
+    background-color:#00adc7;
+    height:320px;
+}
+.slider-inner {
+    width:990px;
+    margin:0 auto;
 }
