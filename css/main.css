@@ -56,23 +56,6 @@ textarea {
 }
 
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
@@ -218,4 +201,27 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.top-repeater {
+    height:8px; 
+    background: url(img/top-repeater.png) repeat-x;
+    margin-top: 16px;
+}
+header {
+    width:990px;
+    margin:0 auto;
+    height:118px;
+}
+.logo {
+    margin-top:34px;
+    float:left;
+    width:300px;
+}
+.topnav {
+    float:right;
+    width:425px;
 }
