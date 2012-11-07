@@ -25,7 +25,7 @@ css-tricks.com/musings-on-preprocessing/
   * Main wrapper padding 
   *
   *******************************************************/
-  padding: 0px 0; 
+  padding: 20px 0; 
 }
   
   .coda-slider-wrapper .coda-slider {
@@ -40,8 +40,9 @@ css-tricks.com/musings-on-preprocessing/
     * match this with the width of the panel as well. 
     *
     *******************************************************/
-    width: 970px; 
+    width: 990px; 
   }
+    
     .coda-slider-wrapper .coda-slider .panel {
       /******************************************************
       * 
@@ -50,7 +51,7 @@ css-tricks.com/musings-on-preprocessing/
       * of the container as well. 
       *
       *******************************************************/
-      width: 970px;  
+      width: 990px; 
     }
       
       .coda-slider-wrapper .coda-slider .panel .panel-wrapper {
@@ -68,9 +69,7 @@ css-tricks.com/musings-on-preprocessing/
     * Tab styles 
     *
     *******************************************************/ 
-    position:absolute;
-    margin-top:280px;
-    margin-left:400px;
+    
   }
     
     .coda-slider-wrapper .coda-nav .current {
@@ -79,12 +78,7 @@ css-tricks.com/musings-on-preprocessing/
       * Current tab styles 
       *
       *******************************************************/
-     background-color: #fff;
-     height: 16px;
-     -moz-border-radius:16px;
-     -webkit-border-radius: 16px;
-     width: 16px;
-
+      background: #fff; 
     }
     
     .coda-slider-wrapper .coda-nav a {
@@ -93,13 +87,10 @@ css-tricks.com/musings-on-preprocessing/
       * Tab styles 
       *
       *******************************************************/
-      background-color: #dfdfdf;
-      height: 16px;
-     -moz-border-radius:16px;
-     -webkit-border-radius: 16px;
-     width: 16px;
-     margin:10px 3px;
-     
+      background: #efefef;
+      color: #fff;
+      margin-right: 1px;
+      padding: 3px 6px; 
     }
     
     .coda-slider-wrapper .coda-nav a:hover {
@@ -108,11 +99,9 @@ css-tricks.com/musings-on-preprocessing/
       * Tab styles 
       *
       *******************************************************/
-      background-color: #fff;
-      height: 16px;
-     -moz-border-radius:16px;
-     -webkit-border-radius: 16px;
-     width: 16px;
+      background: #fff;
+      color: #fff;
+      text-shadow: none; 
     }
   
   .coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-right {
