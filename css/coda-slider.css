@@ -80,7 +80,7 @@ css-tricks.com/musings-on-preprocessing/
       * Current tab styles 
       *
       *******************************************************/
-      background: #fff; 
+      background: url(img/slider-active.png) no-repeat;
     }
     
     .coda-slider-wrapper .coda-nav a {
@@ -89,8 +89,7 @@ css-tricks.com/musings-on-preprocessing/
       * Tab styles 
       *
       *******************************************************/
-      background: #efefef;
-      color: #fff;
+      background: url(img/slider-normal.png) no-repeat;
       margin-right: 1px;
       padding: 3px 6px; 
 
@@ -102,9 +101,7 @@ css-tricks.com/musings-on-preprocessing/
       * Tab styles 
       *
       *******************************************************/
-      background: #fff;
-      color: #fff;
-      text-shadow: none; 
+      background: url(img/slider-normal.png) no-repeat;
     }
   
   .coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-right {

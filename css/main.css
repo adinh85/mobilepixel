@@ -1,3 +1,7 @@
+@font-face {
+font-family: HelveticaNeueLTStd-Bd;
+src: url(fonts/HelveticaNeueLTStd-Bd.otf);
+}
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -264,10 +268,10 @@ textarea {
 	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
 	box-shadow:inset 0px 0px 0px 0px #ffffff;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4f4f51), color-stop(1, #404041) );
-	background:-moz-linear-gradient( center top, #19bed0 5%, #4f4f51 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f4f51', endColorstr='#404041');
-	background-color:#4f4f51;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9cf36), color-stop(1, #e8c337) );
+	background:-moz-linear-gradient( center top, #e9cf36 5%, #e8c337 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9cf36', endColorstr='#e8c337');
+	background-color:#e8c337;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	border-radius:3px;
@@ -279,10 +283,10 @@ textarea {
 	padding:10px 24px;
 	text-decoration:none;
 }.yellow-button:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #404041), color-stop(1, #4f4f51) );
-	background:-moz-linear-gradient( center top, #404041 5%, #19bed0 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#404041', endColorstr='#4f4f51');
-	background-color:#404041;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e8c337), color-stop(1, #e9cf36) );
+	background:-moz-linear-gradient( center top, #e8c337 5%, #e9cf36 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8c337', endColorstr='#e9cf36');
+	background-color:#e9cf36;
 }.yellow-button:active {
 	position:relative;
 	top:1px;
@@ -349,7 +353,7 @@ header {
     height: 332px;
 }
 .sider-left {
-    width:530px;
+    width:550px;
     float:left;
 }
 .slider-right {
@@ -357,12 +361,63 @@ header {
     margin-right:99px;
 }
 .sider-left .title {
-    font-size:29px;
+    font-size:2.1em;
     font-weight:bold;
-    line-height:28px;
+    line-height:1em;
     margin-top:70px;
+    font-family:HelveticaNeueLTStd-Bd;
+    color:#404041;
+    margin-bottom:20px;
 }
 .sider-left .title span{
-    font-size:36px;
+    font-size:1.5em;
+    line-height:1.05em;
     color:#fff;
+}
+.slider-buttons {
+    width:320px;
+    margin:0 auto;
+}
+.login-bg {
+    height:105px;
+    padding:0px 25px;
+    background-color:#404041;
+}
+.login-wrapper {
+    width:980px;
+    margin:0 auto;
+}
+.join-up {
+    float:left;
+    height:63px;
+    margin-top:20px;
+}
+.form-field {
+    float:left;
+    height:63px;
+    padding-left:22px;
+    margin-top:15px;
+}
+.form-field label{
+    color:#fff;
+    font-size:0.9em;
+}
+.form-field .input{
+    color:#404041;
+    font-size:1.65em;
+    width:200px;
+}
+.join-btn {
+    margin-left:22px;
+    margin-top:16px;
+}
+.icon-rpt {
+    background: url(img/icon-repeater.png) repeat-x #e2e3e4;
+    height:500px;
+}
+.cloud-img {
+    width:653px;
+    margin:0 auto;
+    height:323px;
+    padding-top:40px;
 }
