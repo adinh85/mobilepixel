@@ -287,3 +287,19 @@ header {
     width:990px;
     margin:0 auto;
 }
+.slider-inner,.slider-item {
+    height: 210px;
+}
+.sider-left {
+    width:530px;
+    float:left;
+}
+.slider-right {
+    float:right;
+    margin-right:99px;
+}
+.coda-nav ul li {
+    display:block;
+    margin-top:50px;
+    position:absolute;
+}

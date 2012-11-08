@@ -391,7 +391,7 @@ if ( typeof Object.create !== 'function' ) {
 		dynamicArrowRightText: "right &#187;",
 		dynamicTabs: true,
 		dynamicTabsAlign: "center",
-		dynamicTabsPosition: "top",
+		dynamicTabsPosition: "bottom",
 		externalTriggerSelector: "a.xtrig", //shouldnt need any more
 		firstPanelToLoad: 1,
 		hashLinking: false,
