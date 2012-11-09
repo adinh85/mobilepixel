@@ -2,6 +2,10 @@
 font-family: HelveticaNeueLTStd-Bd;
 src: url(fonts/HelveticaNeueLTStd-Bd.otf);
 }
+@font-face {
+font-family: HelveticaNeueLTStd-Roman;
+src: url(fonts/HelveticaNeueLTStd-Roman.otf);
+}
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -405,7 +409,7 @@ header {
 .form-field .input{
     color:#404041;
     font-size:1.65em;
-    width:200px;
+    width:215px;
 }
 .join-btn {
     margin-left:22px;
@@ -413,11 +417,210 @@ header {
 }
 .icon-rpt {
     background: url(img/icon-repeater.png) repeat-x #e2e3e4;
-    height:500px;
+    height:555px;
 }
 .cloud-img {
-    width:653px;
+    width:675px;
     margin:0 auto;
-    height:323px;
     padding-top:40px;
+}
+.cloud-img h1{
+    color:#404041;
+    font-size:1.8em;
+    line-height:1.05em;
+    text-align:center;
+    font-family:HelveticaNeueLTStd-Bd;
+}
+.icon-rpt-inner h2 {
+    font-family:HelveticaNeueLTStd-Bd;
+    color:#ec7f34;
+    width:800px;
+    margin:0 auto;
+    text-align:center;
+    font-size:1.5em;
+}
+.mb-section {
+    width:850px;
+    margin:0 auto;
+    height:225px;
+}
+.mb-logo {
+    text-align:center;
+    margin-top:20px;
+}
+.mb-section h2{
+    font-family:HelveticaNeueLTStd-Bd;
+    color:#404041;
+    text-align:center;
+    font-size:1.2em;
+    line-height:1em;
+    margin-bottom:30px;
+}
+.mb-p p{
+     font-family:Arial,Helvetica;
+    color:#666;
+    text-align:center;
+    font-size:0.75em;
+    margin-bottom:10px;
+    line-height:0.79em;
+    font-weight:100;
+    font-weight:bold;
+}
+.mb-p p.blue{
+    font-famil:Arial,Helvetica;
+    color:#55c8da;
+    text-align:center;
+    margin-top:0px;
+    padding-top:0px;
+    font-size:0.84em;
+    font-weight:bold;
+}
+.multi-rpt {
+    background: url(img/multi-rpt.png) repeat-x;
+    height:439px;
+}
+.circles {
+    width:572px;
+    margin:0 auto;
+    padding-top:31px;
+    height:182px;
+}
+.people {
+    width:83px;
+    height:94px;
+    padding-top:30px;
+    margin:0 auto;
+}
+.multi-rpt h2{
+    text-align:center;
+    color:#404041;
+    font-size:1.9em;
+    line-height:0.5em;
+    text-align:center;
+    font-family:HelveticaNeueLTStd-Bd;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.multi-rpt h3{
+    text-align:center;
+    color:#efefef;
+    text-align:center;
+    font-family:HelveticaNeueLTStd-Roman;
+    margin-top:0px;
+    font-weight:230;
+    font-size:1.35em;
+}
+.pixel-suite-wrapper {
+    background-color:#e2e3e4;
+    height:610px;
+}
+.pixel-suite {
+    width:860px;
+    margin:0 auto;
+    background-color:#e2e3e4;
+    height:600px;
+}
+.ps-left {
+    width:340px;
+    float:left;
+    background: url(img/pixelsuite-logo.png) no-repeat;
+    height:600px;
+    margin-top:-3px;
+}
+.left-menu {
+    margin-top:270px;
+    margin-left:-10px;
+    
+}
+.left-menu li {
+    font-family:HelveticaNeueLTStd-Roman;
+    color:#404041;
+    list-style:none;
+    padding-left:18px;
+    background: url(img/ls-bullet.png) no-repeat left center;
+    font-size:1.40em;
+    line-height:1.5em;
+    font-weight:bold;
+}
+.mp-suite-img {
+    margin-top:44px;
+    margin-left:90px;
+}
+.clients-wrapper {
+    background-color:#404041;
+    height:280px;
+}
+.clients {
+    width:800px;
+    margin:0 auto;
+}
+.client-img {
+    text-align:center;
+    height:113px;
+    width:113px;
+    display:block;
+    margin:0 auto;
+    padding-top:30px;
+}
+.client-txt1 {
+    color:#e2e1dc;
+    text-align:center;
+    margin-bottom:0px;
+    margin-bottom:0px;
+}
+.client-txt2 {
+    color:#94d60a;
+    text-align:center;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+}
+.client-txt3 {
+    margin-top:0px;
+    color:#e2e1dc;
+    font-size:13px;
+    text-align:right;
+    line-heigh:15px;
+}
+.mobile-wizard-wrapper {
+    background-color:#e2e1dc;
+    height:690px;
+}
+.mobile-wizard {
+    width: 815px;
+    margin: 0 auto;
+    height:690px;
+}
+.mobile-wizard h1{
+   margin-top:0px;
+   text-align:center;
+   color:#404041;
+   padding-top:30px;
+   line-height:34px;
+}
+.dotted {
+    background: url(img/dotted.png) repeat-x;
+    margin:17px 0px;
+    height:5px;
+}
+.ws-img {
+    float:left;
+    margin-top:30px;
+    width:339px;
+}
+.ws-right {
+    float:right;
+    margin-top:30px;
+}
+.bottom-content-wrapper {
+    height:295px;
+}
+.bottom-content {
+    height:295px;
+    width:840px;
+    marhin:0 auto;
+}
+.col1 {
+    float:left;
+
 }
